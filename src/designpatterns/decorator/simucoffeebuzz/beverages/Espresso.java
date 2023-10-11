@@ -1,4 +1,4 @@
-package designpatterns.decorator.beverages;
+package designpatterns.decorator.simucoffeebuzz.beverages;
 
 public class Espresso extends Beverage{
 

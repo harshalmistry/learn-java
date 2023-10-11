@@ -1,13 +1,13 @@
-package designpatterns.decorator;
+package designpatterns.decorator.simucoffeebuzz;
 
-import designpatterns.decorator.beverages.DarkRoast;
-import designpatterns.decorator.beverages.Espresso;
-import designpatterns.decorator.beverages.HouseBlend;
-import designpatterns.decorator.condiments.Mocha;
-import designpatterns.decorator.condiments.Soy;
-import designpatterns.decorator.condiments.Whip;
+import designpatterns.decorator.simucoffeebuzz.beverages.DarkRoast;
+import designpatterns.decorator.simucoffeebuzz.beverages.Espresso;
+import designpatterns.decorator.simucoffeebuzz.beverages.HouseBlend;
+import designpatterns.decorator.simucoffeebuzz.condiments.Mocha;
+import designpatterns.decorator.simucoffeebuzz.condiments.Soy;
+import designpatterns.decorator.simucoffeebuzz.condiments.Whip;
 
-public class SimUCoffeeBuzz {
+public class SimUCoffeeBuzzMain {
     public static void main(String[] args) {
 
         System.out.println("**** CoffeeBuzz ****");

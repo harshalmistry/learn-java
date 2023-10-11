@@ -1,6 +1,6 @@
-package designpatterns.decorator.condiments;
+package designpatterns.decorator.simucoffeebuzz.condiments;
 
-import designpatterns.decorator.beverages.Beverage;
+import designpatterns.decorator.simucoffeebuzz.beverages.Beverage;
 
 public class Soy extends CondimentDecorator{
 
