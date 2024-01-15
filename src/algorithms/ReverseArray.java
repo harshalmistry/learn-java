@@ -1,5 +1,9 @@
 package algorithms;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.stream.Collectors;
+
 /**
  * Write a program to reverse array.
  * Time complexity O(n)
@@ -16,11 +20,12 @@ public class ReverseArray {
         // initialize an array
         int[] ints = new int[]{1, 2, 3};
         System.out.println("Initial array");
-        printArray(ints);
-        System.out.println("\nReversing array");
-        reverseArray(ints);
+        printArrayV1(ints);
+        System.out.println("Reversing array");
+        printArrayV1(ints);
         System.out.println("Array after reverse");
-        printArray(ints);
+        reverseArray(ints);
+        printArrayV1(ints);
     }
 
     private void reverseArray(int[] ints) {
@@ -34,6 +39,11 @@ public class ReverseArray {
             start++;
             end--;
         }
+    }
+
+    private void printArrayV1(int[] ints){
+        String collect = Arrays.stream(ints).mapToObj(n -> "" + n).collect(Collectors.joining(", ", "[", "]"));
+        System.out.println(collect);
     }
 
     private void printArray(int[] ints) {
